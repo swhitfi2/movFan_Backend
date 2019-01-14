@@ -80,7 +80,10 @@ exports.getMoviefans = async function(req, res, next){
             id,
             name: req.body.name ? req.body.name : null,
             email: req.body.email ? req.body.email : null,
-            favoriteMovie: req.body.favoritemovie ? req.body.favoriteMovie : null,     
+           // favoriteMovie: req.body.favoritemovie ? req.body.favoriteMovie : null,     
+            //favoriteMovie: req.body.favoritemovie ? req.body.favoritemovie : null,     
+            favoriteMovie: req.body.favoriteMovie ? req.body.favoriteMovie : null,     
+
             status: req.body.status ? req.body.status : null
         }
     
